@@ -24,8 +24,8 @@ h1 {
   padding-bottom: 0px;
   margin-bottom: 0rem;
   margin-left: 0px;
-  position: relative; /* Add position relative to create stacking context */
-  z-index: 1; /* Ensure h1 is above social icons */
+  position: relative; 
+  z-index: 1;
 }
 
 h2 {
@@ -62,9 +62,9 @@ p {
 }
 
 .typing {
-  border-right: 2px solid orange; /* Simulate the typing cursor */
+  border-right: 2px solid orange; 
   animation: blinkCursor 0.8s infinite step-end;
-  padding-right: 2px; /* Ensure spacing for the cursor */
+  padding-right: 2px; 
 }
 
 @keyframes blinkCursor {
@@ -74,17 +74,10 @@ p {
 
 .current-letter {
  
-  color: orange; /* Adjust the color based on your design */
-  border-radius: 2px; /* Rounded corners for the box */
-  padding: 0 2px; /* Padding around the letter for visibility */
+  color: orange; 
+  border-radius: 2px;
+  padding: 0 2px; 
 }
-
-
-
-
-/*---------------------------------------
-    General               
------------------------------------------*/
 
 html{
   -webkit-font-smoothing: antialiased;
@@ -214,11 +207,6 @@ a:hover{
             transform: rotate(360deg); } }
 
 
-
-/*---------------------------------------
-    Main Navigation             
------------------------------------------*/
-
 .navbar-default {
     background: #ffffff;
     margin: 0 !important;
@@ -295,11 +283,6 @@ a:hover{
   background-color: transparent;
 }
 
-
-
-/*---------------------------------------
-    Home section              
------------------------------------------*/
 
 #home {
     background-size: cover;
@@ -462,12 +445,6 @@ position: relative;
   padding-top: 12px;
 }
 
-
-
-/*---------------------------------------
-   Gallery section              
------------------------------------------*/
-
 #gallery span {
   display: block;
   padding-bottom: 32px;
@@ -502,11 +479,6 @@ position: relative;
   text-align: center;
 }
 
-
-
-/*---------------------------------------
-   Contact section              
------------------------------------------*/
 
 #contact .col-md-4 {
   padding-left: 0px;
@@ -550,10 +522,6 @@ position: relative;
 }
 
 
-
-/*---------------------------------------
-   Blog section              
------------------------------------------*/
 
 .blog-post-thumb {
   border-bottom: 1px solid #f0f0f0;
@@ -744,10 +712,6 @@ footer .footer-copyright {
 }
 
 
-
-/*---------------------------------------
-   Social icon             
------------------------------------------*/
 
 .social-icon {
     position: relative;
@@ -997,12 +961,6 @@ img {
 .portfoliotext{
   color:black;
 }
-
-
-/*---------------------------------------
-   Mobile Responsive         
------------------------------------------*/
-
 
 
 @media (max-width: 980px) {
